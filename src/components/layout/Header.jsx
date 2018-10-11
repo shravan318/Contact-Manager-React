@@ -17,6 +17,16 @@ const Header = props => {
               Home
             </a>
           </li>
+          <li className="nav-item">
+            <a href="/about" className="nav-link">
+              About
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="/contact/add" className="nav-link">
+              Add Contact
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
